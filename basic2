@@ -1,0 +1,975 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "6cefb71d-fac9-4a44-a2f2-bb890efe0060",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = \"pratik sathe\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "032520bc-e766-402a-91bc-fd69be0f851b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pratik sathe'"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a4d7e964-a083-4db0-8cef-fd11946f43f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' '"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[6]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "e0161f44-7847-477a-9ccf-24e6c53e232a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[6:-1:-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "7df61cbe-9e48-44a4-86c1-46456eb816fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-6:-1:-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "398eff1b-f968-47d6-9323-141cb43c48ef",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' ia'"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-6:1:-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "8c1d01fc-655e-4497-9ea9-9c91a6024c86",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' kit'"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-6:2:-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "77873267-5f79-43c6-a40f-671bec8ac9f0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-5:3:1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "83fa63f8-8531-4487-98f9-c28b445ab37a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-5:10:-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "795333c8-ecde-4d44-998d-726c90da5a13",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ik sath'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-8:11]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8dce1c9a-77b0-4240-8f21-7bd94e835307",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "string index out of range",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[11], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name[\u001b[38;5;241m13\u001b[39m]\n",
+      "\u001b[0;31mIndexError\u001b[0m: string index out of range"
+     ]
+    }
+   ],
+   "source": [
+    "name[13]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "e923e04f-6057-438f-93c6-48712e7a6c05",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' sat'"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[6:-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "bd60063b-977a-4046-9d8f-dc34e13eea3e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'eaka'"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[13:-14:-3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "26f53864-1349-4e1a-8a7d-5648b9cff883",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ik s'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-8:8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "ec19cf37-f1db-4cf9-8cc0-90341964e68f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "''"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-9:0:1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "cacbd1b9-fa2c-4b56-8f25-f2dbf1c7b4aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ehtas kitarp'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[-1:-13:-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "6d2d7dc0-8ef3-49d2-b4df-6170cf3fa768",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "  name1 = \"ms dhoni\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "00c9bc51-c36a-4463-a679-2fc0cb9c4304",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ms dhoni'"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "02e8acfa-9d2a-4823-9163-930ef103dc3d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'inohd sm'"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1[-1: :-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "0d759ec5-0a17-4342-b210-dde9d5462d5f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ehtas kitarp'"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "b89d5f56-15e1-4ee0-82fe-0b6554c05747",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'i'"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1[-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "2f385c2c-5bbe-426a-b9ad-8410b5450e1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ms dhoni 0707'"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1+\" 0707\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "e642cdfc-4f0f-43b3-9798-92e8bbe7251e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ms dhoni0707'"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1+'0707'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "72b28a26-d252-4d18-983c-9a718260fc99",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(name1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "42603fa9-9d27-4315-b9cc-d6006fbfbd75",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "12"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "64d6322b-157c-4c4e-80d9-65161015d254",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ms dhonims dhonims dhonims dhonims dhonims dhonims dhoni'"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1*7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "a4d1da15-b585-4206-bf4f-6b75103577a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.count('p')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "36e70843-2b34-4982-9984-5f3fd24ae5cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['', 's dhoni']"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1.split('m')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "4cb06446-7fc2-4803-9e6b-d35f4e01e33b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(name1.split('i'))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "9e556d30-a8bc-4378-9266-cbebf4c93967",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'name2' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[52], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name2\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'name2' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "name2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "371e154e-b9e1-469d-9492-56f617c603cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'pratik sathe'"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "c9cc4b35-b789-4ca4-95d2-076cccebaba8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ms dhoni'"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "94e9f072-a228-44d4-b4dd-66a4e72ea60e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name2=\"virat kohli\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "46c2f8ed-ac26-4821-b582-465f56eb9f8d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'virat kohli'"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "bc50f881-a8da-47c3-9bc0-70c2e8d7ff8d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#divide name2 into list of wprd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "df9c2bcf-1497-41bd-9b12-9cc5c62cfa13",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'str' object has no attribute 'space'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[60], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name2\u001b[38;5;241m.\u001b[39mspace\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'str' object has no attribute 'space'"
+     ]
+    }
+   ],
+   "source": [
+    "name2.space"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "dc3e94a0-b1eb-4f3b-ac7a-7e0f800475f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name3=\"Competitive cricket is essentially a bat and ball sport. It is played by two teams on an oval and involves batting, fielding and bowling. There are 11 players a side and a game can last anywhere from several hours to several days. Cricket can be played both socially and competitively, by males and females of all ages.\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "22eafdda-0e3b-47a6-8c96-1c6b31c3d8d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Competitive cricket is essentially a bat and ball sport. It is played by two teams on an oval and involves batting, fielding and bowling. There are 11 players a side and a game can last anywhere from several hours to several days. Cricket can be played both socially and competitively, by males and females of all ages.'"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name3\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "af347d42-b208-4508-a070-67e4fc76be15",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'str' object has no attribute 'spaceinallword'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[63], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name3\u001b[38;5;241m.\u001b[39mspaceinallword\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'str' object has no attribute 'spaceinallword'"
+     ]
+    }
+   ],
+   "source": [
+    "name3.spaceinallword"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "1de77207-738d-4cf2-bc5b-513e3b1b859d",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'str' object has no attribute 'wordspace'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[64], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name3\u001b[38;5;241m.\u001b[39mwordspace\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'str' object has no attribute 'wordspace'"
+     ]
+    }
+   ],
+   "source": [
+    "name3.wordspace"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "ee01cca2-1f82-486d-892a-324e2891752e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Competitive cricket is essentially a bat and ball sport. It is played by two teams on an oval and involves batting, fielding and bowling. There are 11 players a side and a game can last anywhere from several hours to several days. Cricket can be played both socially and ',\n",
+       " 'ly, by males and females of all ages.']"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name3.split('competitive')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "ebce019c-889b-451f-bc2f-1b817151289a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['ms dhoni']"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name1.split('cricket')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "9ae2f2ed-9082-464d-ae3a-556a12a820ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'nam3' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[67], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m nam3\u001b[38;5;241m.\u001b[39msplit(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mcricket\u001b[39m\u001b[38;5;124m'\u001b[39m)\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'nam3' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "nam3.split('cricket')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "8add5a6d-c180-48ff-a5b1-3003acae04e5",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "empty separator",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[68], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m name3\u001b[38;5;241m.\u001b[39msplit(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124m'\u001b[39m)\n",
+      "\u001b[0;31mValueError\u001b[0m: empty separator"
+     ]
+    }
+   ],
+   "source": [
+    "name3.split('')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "ce98ee89-3583-449e-a6da-940c7be1494a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Competitive cricket is essentially a bat and ball sport. It is played by two teams on an oval and involves batting, fielding and bowling. There are 11 players a side and a game can last anywhere from several hours to several days. Cricket can be played both socially and ',\n",
+       " 'ly, by males and females of all ages.']"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name3.split('competitive')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "0971cb9e-1dae-42a2-8304-8582381a8914",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Competitive cricket is essentially a bat and ball sport. It is played by two teams on an oval and involves batting, fielding and bowling. There are 11 players a side and a game can last anywhere from several hours to several days. Cricket can be played both socially and competitively, by males and females of all ages.'"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "6a97644f-9d62-467a-8939-3adcc93062f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Competitive cricket is essentially a bat and ball sport. It is played by two teams on an oval and involves batting, fielding and bowling. There are 11 players a side and a game can last anywhere from several hours to several days. Cricket can be played both socially and ',\n",
+       " 'ly, by males and females of all ages.']"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name3.split('competitive')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3edc3ac6-d3f1-4b1f-b15a-b088c67c9eff",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
