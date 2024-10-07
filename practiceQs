@@ -1,0 +1,411 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0efab908-4ad3-4bcc-b2f0-04cee0b55740",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \" this is my first python programming class and i am learNING python string and its function \""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b2104af0-4bb1-4078-9a26-5d5e91c72c54",
+   "metadata": {},
+   "source": [
+    "### Q.1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "12e01591-02d9-4c9a-8610-c79ca3e9b508",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'tssyityopgmncsa alrNph rgni ni '"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[1:301:3]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f33999c4-032e-46cd-9a04-cbace51f6998",
+   "metadata": {},
+   "source": [
+    "### Q.2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "447b222d-fcc4-4015-a0a4-a60f2fb9f53b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' noitcnuf sti dna gnirts nohtyp GNINrael ma i dna ssalc gnimmargorp nohtyp tsrif ym si siht '"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[::-1]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfed82c1-40d7-4934-8f85-a6ec2bd5d8a5",
+   "metadata": {},
+   "source": [
+    "### Q.3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "abe33a52-13f8-4601-877f-835642592ba5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' THIS IS MY FIRST PYTHON PROGRAMMING CLASS AND I AM LEARNING PYTHON STRING AND ITS FUNCTION '"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "22285da6-73d6-489a-855e-63ef010eb2f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['this',\n",
+       " 'is',\n",
+       " 'my',\n",
+       " 'first',\n",
+       " 'python',\n",
+       " 'programming',\n",
+       " 'class',\n",
+       " 'and',\n",
+       " 'i',\n",
+       " 'am',\n",
+       " 'learNING',\n",
+       " 'python',\n",
+       " 'string',\n",
+       " 'and',\n",
+       " 'its',\n",
+       " 'function']"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.split()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "997291f3-d8de-4ca6-8dd9-1826c85b4062",
+   "metadata": {},
+   "source": [
+    "### Q.4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "e57d45d8-9545-41b5-a3b9-8f2c046a0f7f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' this is my first python programming class and i am learning python string and its function '"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.lower()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b2d70fe8-8240-44bc-9afc-c1d50b85aa4a",
+   "metadata": {},
+   "source": [
+    "### Q.5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "6e8a260f-b83e-4c66-be1d-5be509810161",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' this is my first python programming class and i am learning python string and its function '"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.capitalize()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a26e3f68-668f-465c-afb6-49b06a93571f",
+   "metadata": {},
+   "source": [
+    "### Q.6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "52a9cf44-ea3b-44bb-aa89-e42a7092ca93",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.isalnum()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "932e5851-6c8e-4e4e-bb5c-cda5e19d6da2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.isalpha()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1d15aabc-a407-422f-91b1-7bbc7b89be74",
+   "metadata": {},
+   "source": [
+    "there are no difference "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "73b37be9-bc37-48e8-9de3-a1756968ab18",
+   "metadata": {},
+   "source": [
+    "### Q.7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "2101e610-4a55-45b5-9b6c-5627fc423b75",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' this is my first python programming class and i am learNING python string and its function '"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.expandtabs()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b3b4789e-08dc-4582-86ba-4405247756e8",
+   "metadata": {},
+   "source": [
+    "### Q.8"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "2679327e-d8c7-434a-b121-0729fbf440ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my first python programming class and i am learNING python string and its function'"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.strip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "cc6c226b-af4a-4389-a8bb-d60278cde549",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my first python programming class and i am learNING python string and its function '"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.lstrip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "7ea183df-7daf-4877-8946-e460e672b6ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' this is my first python programming class and i am learNING python string and its function'"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.rstrip()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "49a6e9ab-939c-4e92-a9a5-8ed6c97d1205",
+   "metadata": {},
+   "source": [
+    "### Q.9"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "bb7ad607-bdbe-4f30-a93b-3ae48b3d43ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' this is my first python programming class and i am learNING python string and its function '"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "eb2f68d2-b258-4bd8-a337-868260a610d2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
