@@ -1,0 +1,248 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "02844f9d-c1ff-4045-947d-0f7cdfd6d990",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "bab8f3ed-63ee-420a-85ad-35f3ed3a1fb6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "# library function or inbuild function\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "31ec748d-d8e1-4ffe-ba9f-24827b2ec98d",
+   "metadata": {},
+   "source": [
+    "print(\"shivraj gadge\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "df544e1a-cc97-4e80-91b5-c2e89cb742a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = \"shivraj gadge\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "b5d60fa5-221d-4cc5-88f5-c829367a61c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'shivraj gadge'"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "d0c6ccb0-721c-414c-bb2a-ee6873cbd548",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a,b,c = 5,7,9"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "6622cb86-29de-4a8b-961d-a8c2fb96d94c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = b =  c = 7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "cec528b2-943e-4c32-9c15-67e5c3d934bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7 7 7\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "2c9fbe04-fd3f-4a07-9033-31762da707fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7,7,7\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c, sep=',')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "c492f340-a5b6-4d9d-8877-e70395be14a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7@7@7\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c, sep='@')enter two nubers\")\n",
+    "a = input(\"intpute the value of a\")\n",
+    "b = input(\"inpute the value of b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "60f32881-cf4a-49a7-ad8b-69317d6f3ef8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "456789\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(45,67,89, sep ='')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "92ceead8-ad93-447e-902b-01f35952f22a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shivvraj gadge\n",
+      "shubham gaikwad\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('shivvraj gadge')\n",
+    "print(\"shubham gaikwad\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "32e0cc25-25e3-443e-b868-b74b4f5683ac",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shivvraj gadge\tshubham gaikwad\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('shivvraj gadge', end='\\t')\n",
+    "print(\"shubham gaikwad\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d27fbcdc-94cd-412f-bd7f-c21e2b826ac1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print(\"enter two Nos.\")\n",
+    "a = int(input(\"inpute the value of a\"))\n",
+    "b = int(input(\"inpute the value of b\"))\n",
+    "c = a + b\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "adab4634-efe3-4961-96f8-921ad3c50790",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
